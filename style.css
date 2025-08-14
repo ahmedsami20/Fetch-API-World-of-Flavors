@@ -1,0 +1,119 @@
+body {
+  margin: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 60px;
+  background-color: white;
+  border-radius: 24px;
+  box-shadow: 0px 10px 40px gray;
+  border: 1px solid lightgray;
+}
+
+button {
+  margin: 15px;
+  padding: 18px 40px;
+  background-color: limegreen;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background-color: seagreen;
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 20px gray;
+}
+
+button:active {
+  transform: translateY(0px);
+  box-shadow: 0px 4px 10px gray;
+}
+
+.section1 {
+  border: 2px solid green;
+  padding: 40px;
+  margin: 0px 0px 35px 0px;
+  background-color: lightgray;
+  border-radius: 20px;
+  box-shadow: 0px 6px 24px gray;
+  transition: all 0.4s ease;
+}
+
+.section1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 28px gray;
+}
+
+.output {
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 30px 0px;
+  border-radius: 16px;
+  font-size: 17px;
+  color: navy;
+  border: 1px solid teal;
+  box-shadow: 0px 4px 16px gray;
+  line-height: 30px;
+  transition: all 0.4s ease;
+}
+
+.output:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 22px gray;
+}
+
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 16px;
+  box-shadow: 0px 4px 12px gray;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px gray;
+}
+
+.recipe-card h2 {
+  font-size: 22px;
+  color: darkolivegreen;
+  margin-bottom: 8px;
+}
+
+.recipe-card p {
+  font-size: 16px;
+  color: darkslategray;
+  margin: 5px 0px;
+}
+
+.recipe-card ul {
+  list-style: disc inside;
+  margin: 8px 0px 0px 0px;
+  padding: 0px;
+}
+
+.recipe-card li {
+  font-size: 15px;
+  color: darkcyan;
+  margin: 2px 0px;
+}
